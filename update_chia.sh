@@ -3,7 +3,7 @@ cd $HOME/git/chia-blockchain/
 git checkout main
 git pull
 git reset --hard
-git checkout 2.1.1
+git checkout 2.1.3
 sh install.sh
 . ./activate
 chia stop all
